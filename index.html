@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    <title>Facebook</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div>
+    <h1>facebook</h1>
+    </div>
+
+
+    <form id="form" class="form">
+        <div class="heading">
+            <h2>Create a new account</h2>
+            <p class="head">it's quick and easy</p>
+        </div>
+        <hr>
+        <div class="co">
+        <div class="form-control">
+          
+            <input type="text"  placeholder="First name" autocomplete="off" id="firstname">
+            <i class="fas fa-check-cirlce"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+         <div class="form-control">
+            <input type="text"  placeholder="Surname name" autocomplete="off" id="surname">
+            <i class="fas fa-check-cirlce"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        </div>
+
+        <div class="form-control">
+          <input type="text" id="email" aria-describedby="emailHelp" placeholder="Email address" autocomplete="off">
+          <i class="fas fa-check-cirlce"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+          
+        </div>
+
+        <div class="form-control">
+          <input type="password" id="password" placeholder="New Password" autocomplete="off">
+          <i class="fas fa-check-cirlce"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <input type="password" id="password2" placeholder="Password check">
+          <i class="fas fa-check-cirlce"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+
+        <div class="">
+          <label for="datepicker">Date of Birth:</label>
+          <br>
+          <input type="date" id="datepicker" class="form-control" name="datepicker">
+      </div>
+      <br>
+      <div id="but">
+        
+        <label for="gender">Gender:</label>
+        <br>
+        <button id="but">female: <input  id="sex" type="radio" name="gender " value=""></button>
+        <button id="but">male: <input id="sex" type="radio" name="gender " value=""></button>
+        <button id="but">custom: <input id="sex" type="radio" name="gender " value=""></button>
+      
+      </div>
+      
+
+       <div class="below">
+        <p>People who use our service may have uploaded your contact information to facebook. <span class="tin">Learn more.</span> </p>
+
+        <p>By clicking Sign Up. you agree to Terms. <span class="tin">Data Policy</span> and <span class="tin">Cookies Policy</span> . You may recieve SMS notifications from us and can opt out at any time.</p>
+        
+      </div>
+
+        </div>
+        
+        <button class="but">Sign Up</button>
+       
+      <p class="spin">Already have an account?</p>
+    </form>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
